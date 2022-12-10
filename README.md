@@ -1,1 +1,1 @@
-My first time coding in C
+C - Variables, if, else, while
