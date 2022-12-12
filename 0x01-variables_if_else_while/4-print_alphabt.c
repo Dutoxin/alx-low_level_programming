@@ -1,12 +1,13 @@
 #include <stdio.h>
 /**
  * main - Entry point
- * Description: A program that prints the alphabet in lowercase, followed by a new line
+ * Description: A program that prints the alphabet in lowercase
  * Return: Always 0
  */
 int main(void)
 {
 	char c = 'a';
+
 	while (c <= 'z')
 	{
 		if (c != 'e' && c != 'q')

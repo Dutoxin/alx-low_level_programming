@@ -20,6 +20,6 @@ int main(void)
 		putchar(d);
 		d++;
 	}
-	putchar('\n');
+sh: 1: q: not found
 	return (0);
 }
