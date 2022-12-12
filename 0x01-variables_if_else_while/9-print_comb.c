@@ -2,21 +2,22 @@
 #include <stdlib.h>
 /**
  * main - Entry point
- * Description: A program that prints all possible combinations of single-digit numbers
+ * Description: Program that prints all possible combinations of single-digit num
  * Return: Always 0
  */
 int main(void)
 {
-	int c = 0;
-	while (c < 10)
+	int a;
+
+	for (a = 0; a < 10; a++)
 	{
-		putchar(48 + c);
-		if (c != 9)
+		putchar(a + '0');
+		if (a < 9)
 		{
 			putchar(',');
 			putchar(' ');
 		}
-		c++;
 	}
+	putchar('\n');
 	return (0);
 }
