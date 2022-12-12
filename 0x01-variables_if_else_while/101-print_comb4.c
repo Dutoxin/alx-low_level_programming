@@ -2,7 +2,7 @@
 #include <stdlib.h>
 /**
  * main - Entry point
- * Description: program that print all possible different combination of 
+ * Description: program that print all possible different combination of
  * _three digit
  * Numbers must be separated by ,, followed by a space
  * The three digits must be different
