@@ -3,7 +3,7 @@
 #include <stdlib.h>
 /**
  * main - Entry point
- * Description: A program that prints the alphabet in lowercase, followed by a new line
+ * Description: Print the alphabet in lowercase, followed by a new line
  * Return: Always 0
  */
 int main(void)
