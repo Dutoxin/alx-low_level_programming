@@ -2,7 +2,7 @@
 #include <stdlib.h>
 /**
  * main - Entry point
- * Description: Program that prints all possible combinations of single-digit num
+ * Description: Program that print all possible combination of single-digit num
  * Return: Always 0
  */
 int main(void)
