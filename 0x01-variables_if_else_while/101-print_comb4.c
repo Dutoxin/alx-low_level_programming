@@ -2,10 +2,11 @@
 #include <stdlib.h>
 /**
  * main - Entry point
- * Description: program that print all possible different combination of three digit
+ * Description: program that print all possible different combination of 
+ * _three digit
  * Numbers must be separated by ,, followed by a space
  * The three digits must be different
- * 012, 120, 102, 021, 201, 210 are considered the same 
+ * 012, 120, 102, 021, 201, 210 are considered the same
  * _combination of the three digits 0, 1 and 2
  * Print only the smallest combination of three digits
  * Numbers should be printed in ascending order, with three digits
@@ -48,5 +49,5 @@ int main(void)
 		e++;
 	}
 	putchar('\n');
-	return(0);
+	return (0);
 }
