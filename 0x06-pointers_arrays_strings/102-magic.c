@@ -1,10 +1,5 @@
 #include <stdio.h>
-/**
- * main - Entry point
- * Description: Add one line to this code, so that the program prints a[2] = 98
- *
- * Return: Always 0
- */
+
 int main(void)
 {
 	int n;
