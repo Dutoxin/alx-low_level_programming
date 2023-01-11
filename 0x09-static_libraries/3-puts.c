@@ -1,7 +1,12 @@
 #include "main.h"
 #include <stdio.h>
-void _puts(char *str)
+#include <ctype.h>
+#include <string.h>
+#include <stdlib.h>
+
+void _puts(char *s)
 {
+	puts(s);
 }	
 /**
  * main - Entry point
